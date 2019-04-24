@@ -1,0 +1,23 @@
+.test {
+  border-radius: 25px;
+  border: 2px solid #73AD21;
+  padding: 20px;
+}
+h1{
+  font-size: 24px;
+}
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}

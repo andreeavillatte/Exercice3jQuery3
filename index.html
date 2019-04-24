@@ -1,0 +1,85 @@
+<!-- ne pas modifier le html et le head -->
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Exercice3jQuery3</title>
+  <link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+
+<body>
+  <header>
+    <h2>jQuery</h2>
+  </header>
+  <!-- START Bootstrap-Cookie-Alert -->
+  <div class="container">
+    <!-- container de la page pour mise en forme bootstrap, ne pas toucher -->
+    <nav class="navbar navbar-light justify-content-center">
+      <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link active" href="#!">Active</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#!">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#!">Link</a>
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <div class="card-deck mb-3">
+        <div class="card bg-primary">
+          <div class="card-body bg-warning">
+            <div class="card-text p-2 bg-primary test">
+              <h1 class="card-title font-weight-bolder text-center text-md-left">Exercice 3 :</h1>
+            </div>
+          </div>
+        </div>
+        <div class="card bg-warning">
+          <div class="card-body p-2 bg-primary">
+              <div class="card-text p-2 bg-success test">
+            Construisez une page html avec un bouton et un champ number. Le but est de trouver un nombre entre 0 et 100. A chaque réponse la page répond :
+              <ul>
+                <li>plus</li>
+                <li>moins</li>
+                <li>correct</li>
+              </ul>
+            Quand la réponse est trouvée, on obtient le nombre d'essais que l'on a fait.
+            </div>
+          </div>
+        </div>
+          <div class="card bg-primary">
+            <div class="card-body p-2 bg-warning text-center">
+              <p class="card-text p-2 bg-primary test ">Veuillez entrer un nombre entre 0 et 100, pour essayer de deviner le nombre alleatoire</p>
+              <button type="button" class="btn btn-primary btn-lg" id="verify">Vérifier</button>
+              <form class="mt-2">
+                <input class="text-center text-danger font-weight-bolder" id="input" type="number" name="quantity" min="0" max="100"><br>
+              </form>
+
+              <!-- //// patern -->
+              <p id="result" class="text-center lead mx-5 mb-2"></p>
+              <p id="countResult" class="text-center lead mx-5"></p>
+            </div>
+          </div>
+        </div>
+    </main>
+  </div>
+  <footer>
+    <p>Footer</p>
+  </footer>
+  <!-- scripts boostrap -->
+  <script src="assets/js/jquery-3.3.1.min.js"></script>
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+  <script src="assets/js/main.js"></script> <!--  mon script js perso -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script>
+</body>
+
+</html>
